@@ -1,0 +1,20 @@
+ABN	Amsterdam
+BAR	Barcelona
+BLD	Boulder
+EHN	Ehningen
+EHNC    Ehningen Central NG
+FAR	Fareham
+HRT	Hortolandia
+MOP	Montpellier
+POK	Poughkeepsie
+RTP	Raleigh
+RTPS	Raleigh Staging
+RTPSC	Raleigh Staging NG Central
+RTPSS	Raleigh Staging NG Site
+SYD	Sydney
+TOK	Tokyo
+TOR	Toronto
+UK      Portsmouth
+WIN	Winterthur
+PHN	Allianz N1
+EDS	Allianz N2
