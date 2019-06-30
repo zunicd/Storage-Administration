@@ -2,10 +2,10 @@
 A collection of storage administration scripts
 
 **health_and inventory_visualization**
-* Code List.xlsx
-* sce+xiv_info.xlsx
-* SCE+XIV_Inventory.xlsx
-* XIV_Current_Issues_04042018.xlsx
+* _Code List.xlsx_
+* _sce+xiv_info.xlsx_
+* _SCE+XIV_Inventory.xlsx_
+* _XIV_Current_Issues_04042018.xlsx_
 
 **tsm_backup_scripts**
 * _tsm_offsite.ksh_ - The script runs on each of multiple TSM servers. It checks randomly for the token on other servers in the loop and if it does not see the token, it creates the token itself and starts ejecting tapes. Once all tapes are ejected, it deletes the token and allows other servers to take the token and eject their tapes.
@@ -15,10 +15,10 @@ A dummy TSM script represents a token.
 * _HealthCheck.ksh_ – health check script
 * _SaveConfigs.ksh_ – configuration saving script
 * _SaveConfigs_mXIV.ksh_ – configuration saving script for one or multiple XIVs
-* PreChangeBackup.ksh – pre change backup script
-* PreChangeBackup_mXIV.ksh – pre change backup script for one or multiple XIVs
-* xcli_comm.ksh – executing an xcli command for all XIVs in one site
-* xcli_comm_mXIV.ksh – executing an xcli command for one or multiple XIVs
+* _PreChangeBackup.ksh_ – pre change backup script
+* _PreChangeBackup_mXIV.ksh_ – pre change backup script for one or multiple XIVs
+* _xcli_comm.ksh – executing_ an xcli command for all XIVs in one site
+* ,,xcli_comm_mXIV.ksh,, – executing an xcli command for one or multiple XIVs
 * xcli_start.ksh – starting xcli session 
 * XIV Scripts for Linux.docx
 
