@@ -8,15 +8,13 @@ A collection of storage administration scripts
 * XIV_Current_Issues_04042018.xlsx
 
 **tsm_backup_scripts**
-* tsm_offsite.ksh
-
-<pre>The script runs on each of multiple TSM servers. It checks randomly for the token on other servers in the loop and if it does not see the token, it creates the token itself and starts ejecting tapes. Once all tapes are ejected, it deletes the token and allows other servers to take the token and eject their tapes.
-A dummy TSM script represents a token.</pre>
+* _tsm_offsite.ksh_ - The script runs on each of multiple TSM servers. It checks randomly for the token on other servers in the loop and if it does not see the token, it creates the token itself and starts ejecting tapes. Once all tapes are ejected, it deletes the token and allows other servers to take the token and eject their tapes.
+A dummy TSM script represents a token.
 
 **xiv_health_scripts**
-* HealthCheck.ksh – health check script
-* SaveConfigs.ksh – configuration saving script
-* SaveConfigs_mXIV.ksh – configuration saving script for one or multiple XIVs
+* _HealthCheck.ksh_ – health check script
+* _SaveConfigs.ksh_ – configuration saving script
+* _SaveConfigs_mXIV.ksh_ – configuration saving script for one or multiple XIVs
 * PreChangeBackup.ksh – pre change backup script
 * PreChangeBackup_mXIV.ksh – pre change backup script for one or multiple XIVs
 * xcli_comm.ksh – executing an xcli command for all XIVs in one site
