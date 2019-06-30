@@ -34,7 +34,7 @@ A dummy TSM script represents a token.
 *	_xcli_ups_mXIV.ksh_ - running an XIV ups_list with custom parameters for one or multiple XIVs
 *	_XIV Report Scripts.mov_
 
-***Note:*** The xcli_ups scripts can be used as templates. This is good for long commands or set of commands that need to be executed more frequently. For a particular activity you create the script by hard coded the commands in the basic script template. The scripts could be easily adapted for different commands and for other devices. For XIVs only part where the commands are listed need to be changed, and for other devices few more things. 
+***Note:*** The `xcli_comm` scripts will ask you to enter the command and then they will process it. This is good for simple and short commands. The `xcli_ups` scripts can be used as templates. This is good for long commands or set of commands that need to be executed more frequently. For a particular activity you create the script by hard coded the commands in the basic script template. The scripts could be easily adapted for different commands and for other devices. For XIVs only part where the commands are listed need to be changed, and for other devices few more things. 
 
 
 **xiv_setup_scripts**
