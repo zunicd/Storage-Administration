@@ -10,6 +10,28 @@ A collection of storage administration scripts
 **tsm_backup_scripts**
 * tsm_offsite.ksh
 
->The script runs on each of multiple TSM servers. It checks randomly for the token on other servers in the loop and if it does not see the token, it creates the token itself and starts ejecting tapes. Once all tapes are ejected, it deletes the token and allows other servers to take the token and eject their tapes.
-A dummy TSM script represents a token.
+<pre>The script runs on each of multiple TSM servers. It checks randomly for the token on other servers in the loop and if it does not see the token, it creates the token itself and starts ejecting tapes. Once all tapes are ejected, it deletes the token and allows other servers to take the token and eject their tapes.
+A dummy TSM script represents a token.</pre>
 
+**xiv_health_scripts**
+* HealthCheck.ksh – health check script
+* SaveConfigs.ksh – configuration saving script
+* SaveConfigs_mXIV.ksh – configuration saving script for one or multiple XIVs
+* PreChangeBackup.ksh – pre change backup script
+* PreChangeBackup_mXIV.ksh – pre change backup script for one or multiple XIVs
+* xcli_comm.ksh – executing an xcli command for all XIVs in one site
+* xcli_comm_mXIV.ksh – executing an xcli command for one or multiple XIVs
+* xcli_start.ksh – starting xcli session 
+* XIV Scripts for Linux.docx
+
+***Note:*** SaveConfigs scripts are using HAK (IBM Storage Host Attachment Kit) for Linux and xiv_save_config, a python script developed by Gil Sharon (gil@us.ibm.com). They should be installed in the folder TOOLS.
+
+**xiv_report_scripts**
+* Device list script.docx
+* Device List Script.mov
+*	device_list.ksh
+*	xcli_comm.ksh
+*	xcli_comm_mXIV.ksh
+*	xcli_ups.ksh
+*	xcli_ups_mXIV.ksh
+*	XIV Report Scripts.mov
